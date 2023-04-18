@@ -22,9 +22,9 @@ author: Some Person
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Shopping: "https://anvyshops.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Youtube: "https://www.youtube.com/@ducsadu"
 
 ################
 # --- Logo --- #
@@ -49,13 +49,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "ducsadu.contact@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  facebook: DuongXDuc
+  github: ducdx89
+  twitter: ducsadu
+  patreon: DucSaDu
+  youtube: @ducsadu
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
