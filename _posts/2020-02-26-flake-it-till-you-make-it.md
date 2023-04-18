@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Tạo form đăng ký sử dụng JSP Servlet
+subtitle: Servlet + JSP + JDBC + MySQL Example
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [books, test]
+tags: [jsp, Servlet]
 ---
 
 # Servlet + JSP + JDBC + MySQL Example
 
-author: [Duc SaDu](https://www.blogger.com/profile/14691512106162803120 "author profile")
+author: [Duc SaDu](https://anvyshops.com "author profile")
 
 In this article, we will build a simple  **Employee Registration** **Form**  example using a combination of [JSP],  [Servlet], [JDBC]  and  [MySQL] database.
 
