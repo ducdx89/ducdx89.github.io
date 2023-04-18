@@ -95,7 +95,7 @@ Standard project structure for your reference -
 ## 4. MySQL Database Setup
 
 Let's create a database named "mysql_database" in MySQL. Now, create an employee table using below DDL script:
-
+```sql
 CREATE TABLE `employee` (
    `id` int(3) NOT NULL,
    `first_name` varchar(20) DEFAULT NULL,
@@ -107,13 +107,13 @@ CREATE TABLE `employee` (
    PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 SELECT * FROM mysql_database.employee; 
-
+```
 ![](https://2.bp.blogspot.com/-X4qfoU2wMdQ/XHosgUiEnkI/AAAAAAAAFs8/HxATt2U25qETu0dmTp5BKtwDmU4xIxudwCLcBGAs/s1600/mysql-database.PNG)
 
 ## 5. Create a JavaBean - Employee.java
 
 Let's create an  _Employee_  JavaBean class which we will use in JSP action tags.
-
+```java
 package net.javaguides.jsp.jdbc.bean;
 
 import java.io.Serializable;
@@ -170,11 +170,13 @@ public class Employee implements Serializable {
         this.contact = contact;
     }
 }
+```
 
 ## 6. Create an EmployeeDao.java
 
 Let's create EmployeeDao class which contains JDBC code to connect with MySQL database. Add the following code to an EmployeeDao class:
 
+```java
 package net.javaguides.jsp.jdbc.database;
 
 import java.sql.Connection;
@@ -234,13 +236,14 @@ public class EmployeeDao {
         }
     }
 }
-
+```
 
 
 ## 7. Create an EmployeeServlet.java
 
 Let's create an EmployeeServlet class  to process HTTP request parameters and redirect to the appropriate JSP page after request data stored in the database:  
 
+```java
 package net.javaguides.employeemanagement.web;
 
 import java.io.IOException;
@@ -295,6 +298,7 @@ public class EmployeeServlet extends HttpServlet {
         response.sendRedirect("employeedetails.jsp");
     }
 }
+```
 
 ## 8. Create a employeeregister.jsp
 
@@ -307,6 +311,7 @@ Let's design employee registration HTML form with the following fields:
 -   address
 -   contact
 
+```html
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
  pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -350,11 +355,12 @@ Let's design employee registration HTML form with the following fields:
  </div>
 </body>
 </html>
-
+```
 ## 9. Create an employeedetails.jsp
 
 After an employee successfully registered then this page show a successful message on screen:  
 
+```html
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
  pageEncoding="ISO-8859-1"%>
 <%@page import="net.javaguides.employeemanagement.dao.*"%>
@@ -368,6 +374,7 @@ After an employee successfully registered then this page show a successful messa
  <h1>User successfully registered!</h1>
 </body>
 </html>
+```
 
 Note that in the above page, we have used JSP action tags. Read more about action tags here.
 
