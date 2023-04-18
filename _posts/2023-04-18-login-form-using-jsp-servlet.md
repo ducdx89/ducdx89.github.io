@@ -73,12 +73,10 @@ To create a new dynamic Web project in Eclipse:
 
 Add the latest release of below jar files to the lib folder.
 
-```
 - jsp-api.2.3.1.jar
 - servlet-api.2.3.jar
 - mysql-connector-java-8.0.13.jar
 
-```
 
 In Eclipse, paste these JAR files to your project directory:  **WebContent/WEB-INF/lib**
 
@@ -256,6 +254,7 @@ Let's design login HTML form with following fields:
 
 -   username
 -   password
+
 ```html
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
  pageEncoding="ISO-8859-1"%>
