@@ -18,15 +18,6 @@ In this article, we will build a simple Login Form using  [JSP],  [Servlet](, [J
   
 
 In this example, we will create an  **Employee Login Form**  and we will validate employee  _username_  and  _password_  with the database.  
-
-# Video
-
-This tutorial is explained in the below Youtube Video. Subscribe to my youtube channel at [Java Guides - YouTube Channel](https://www.youtube.com/channel/UC1Be9fnFTlcsUlejgfqag0g).  
-
-  
-
-Get source code of this tutorial on my  [**GitHub Repository**](https://github.com/RameshMF/servlet-tutorial).
-
   
 Below diagram shows our Employee Login Form build using JSP:  
 
